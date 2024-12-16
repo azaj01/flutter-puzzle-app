@@ -1,0 +1,46 @@
+name: way_for_ball
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  url_launcher: ^6.3.1
+  audioplayers: ^6.1.0
+  gap: ^3.0.1
+  flutter_svg: ^2.0.16
+  shared_preferences: ^2.3.3
+  lottie: ^1.4.3
+  flutter_staggered_animations: ^1.1.1
+  animated_text_kit: ^4.2.2
+  flutter_staggered_grid_view: ^0.7.0
+  url_strategy: ^0.3.0
+  rive: ^0.13.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/lottie/
+    - assets/rive/
+    - assets/images/
+    - assets/images/tiles/
+    - assets/images/buttons/
+  fonts:
+    - family: Shizuru
+      fonts:
+        - asset: fonts/Shizuru/Shizuru-Regular.ttf
+    - family: Cairo
+      fonts:
+        - asset: fonts/Cairo/Cairo-Regular.ttf
